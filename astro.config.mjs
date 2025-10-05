@@ -6,7 +6,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://yuki2021.github.io',
-
+	base: '/profile_astro',
 	vite: {
 		plugins: [tailwindcss()],
 	},
